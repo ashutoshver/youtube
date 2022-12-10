@@ -1,0 +1,29 @@
+#searching {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#query {
+  width: 30rem;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+#btn {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#results {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-gap: 1%;
+}
